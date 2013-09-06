@@ -1,0 +1,32 @@
+================================================================================
+Ubitus MultiMedia Library for Android
+================================================================================
+
+Here is the root directory structure(TBD):
+©À©¤build
+©À©¤docs
+©À©¤include
+©À©¤src
+©¦  ©À©¤codecs
+©¦  ©¦  ©À©¤decoder
+©¦  ©¦  ©¦  ©À©¤audio
+©¦  ©¦  ©¦  ©¦  ©¸©¤dummy
+©¦  ©¦  ©¦  ©¸©¤video
+©¦  ©¦  ©¦      ©¸©¤dummy
+©¦  ©¦  ©¸©¤encoder
+©¦  ©¦      ©À©¤audio
+©¦  ©¦      ©¦  ©¸©¤dummy
+©¦  ©¦      ©¸©¤video
+©¦  ©¦          ©¸©¤dummy
+©¦  ©À©¤render
+©¦  ©¦  ©¸©¤opengles2
+©¦  ©¸©¤utils
+©¸©¤tests
+
+build         - Include Makefile for android library build.
+docs          - Include library open API documents.
+include       - Include library open API header files.
+tests         - Include unit test case and test resources
+src/codecs    - Include Video/Audio encoder and decoder
+src/render    - Include OpenGL render etc.
+src/utils     - Include tools assembly(thread, event, queue, timer, log etc.)
